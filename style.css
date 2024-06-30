@@ -16,11 +16,14 @@ body{
 }
 #messages{
   background-color: lightgreen;
-  padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 70px;
+  padding-left: 40px;
+  padding-right: 40px;
   width: 30%;
   max-width: fit-content;
   margin-right: 8px;
   margin-left: auto;
   position: relative;
-  top: -145px; right: 30px;
+  top: -137px; right: 30px;
 }
