@@ -29,6 +29,6 @@ body{
   position: relative;
   top: -137px; right: 30px;
 }
-.messagetitle{
+#messagetitle{
   size: 20px;
 }
