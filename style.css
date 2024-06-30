@@ -4,11 +4,12 @@ body{
 }
 #waffle{
   font-family: Verdana, sans-serif;
-  background-color: white;
+  background-color: honeydew;
   font-size: 20px;
   border: 2px solid lightgreen;
-  padding: 16px;
+  padding: 10px;
   transition-duration: 0.4s;
+  border-radius: 3px;
 }
 #waffle:hover{
   background-color: lightgreen;
