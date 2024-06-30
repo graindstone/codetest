@@ -9,5 +9,5 @@ const sendmessage = (msg) => {
   }
 }
 $("waffle").click(() => {
-  
-}
+  sendmessage("There's not much to do here...");
+});
