@@ -3,7 +3,13 @@ body{
   background-color: honeydew;
 }
 #waffle{
-  background-color: lightgreen;
   font-family: Verdana, sans-serif;
-  font-size: 16px;
+  background-color: white;
+  font-size: 20px;
+  border: 2px solid lightgreen;
+  padding: 16px;
+  transition-duration: 0.4s;
+}
+#waffle:hover{
+  background-color: lightgreen;
 }
