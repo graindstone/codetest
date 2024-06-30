@@ -9,7 +9,7 @@ body{
   border: 2px solid lightgreen;
   padding: 10px;
   transition-duration: 0.4s;
-  border-radius: 3px;
+  border-radius: 6px;
 }
 #waffle:hover{
   background-color: lightgreen;
