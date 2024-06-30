@@ -8,6 +8,7 @@ const sendmessage = (msg) => {
     log.pop();
   }
 }
+sendmessage("There's not much to do here.");
 $("waffle").click(() => {
-  sendmessage("There's not much to do here...");
+  sendmessage("You got a waffle!");
 });
