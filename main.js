@@ -9,6 +9,4 @@ const sendmessage = (msg) => {
   }
 }
 sendmessage("There's not much to do here.");
-document.querySelector("waffle").click(() => {
-  sendmessage("You got a waffle!");
 });
