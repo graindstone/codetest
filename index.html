@@ -18,14 +18,15 @@
       function getwaffle(){
         sendmessage("You got a waffle!");
         document.getElementById('eatwaffle').style.display='block';
-        document.getElementById("Button").disabled = true;
+        document.getElementById("waffle").disabled = true;
+        document.getElementById("textt").innerHTML = "What's that? Another button?";
       }
     </script>
   </head>
   <body>
     <center>
       <h1><b>Nice-Looking Page</b></h1>
-      <p>Click the button below!</p>
+      <p id="textt">Click the button below!</p>
       <ul>
         <li><button id="waffle" type="button" onclick="getwaffle()">Waffle!</button></li>
         <li><button id="eatwaffle" type="button" style="display:none"></button></li>
