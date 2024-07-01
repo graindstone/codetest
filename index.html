@@ -4,18 +4,8 @@
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="style.css" />
     <script src="main.js" type="module"></script>
-    <style>
-      ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-      }
-      li {
-        display: inline;
-      }
-    </style>
     <script>
-      function getwaffle(){
+      function getwaffle() {
         sendmessage("You got a waffle!");
         document.getElementById('eatwaffle').style.display='block';
         document.getElementById("waffle").disabled = true;
@@ -27,14 +17,14 @@
     <center>
       <h1><b>Nice-Looking Page</b></h1>
       <p id="textt">Click the button below!</p>
-      <ul>
-        <li><button id="waffle" type="button" onclick="getwaffle()">Waffle!</button></li>
-        <li><button id="eatwaffle" type="button" style="display:none"></button></li>
-      </ul>
+      <button id="waffle" type="button" onclick="getwaffle()">Waffle!</button></li>
     </center>
     <div id="messages">
-      <div id="messagetitle"><font size="4"><b>Messages</b></font></div>
-      <div id="messagecontent"></div>
+      <div id="messagetitle"><font size="4"><b>Cool Stuff</b></font></div>
+      <center>
+        <div id="stuffcontent">Where cool stuff lives</div>
+        <button id="eatwaffle" type="button" style="display:none"></button>
+      </center>
     </div>
     
   </body>
