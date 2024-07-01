@@ -10,6 +10,7 @@
         document.getElementById('eatwaffle').style.display='block';
         document.getElementById("waffle").disabled = true;
         document.getElementById("textt").innerHTML = "What's that? Another button?";
+        alert("received");
       }
     </script>
   </head>
@@ -17,7 +18,7 @@
     <center>
       <h1><b>Nice-Looking Page</b></h1>
       <p id="textt">Click the button below!</p>
-      <button id="waffle" type="button" onclick="getwaffle">Waffle!</button></li>
+      <input id="waffle" type="button" onclick="getwaffle()" value="Waffle!"></li>
     </center>
     <div id="messages">
       <center>
