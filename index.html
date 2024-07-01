@@ -4,12 +4,25 @@
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="style.css" />
     <script src="main.js" type="module"></script>
+    <style>
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+      li {
+        display: inline;
+      }
+    </style>
   </head>
   <body>
     <center>
       <h1><b>Nice-Looking Page</b></h1>
       <p>Click the button below!</p>
-      <button id="waffle" type="button" onclick="sendmessage('you got a waffle ?!')">Waffle!</button>
+      <ul>
+        <li><button id="waffle" type="button" onclick="sendmessage('you got a waffle ?!')">Waffle!</button></li>
+        <li><button id="eatwaffle" type="button" style="display:none"></button></li>
+      </ul>
     </center>
     <div id="messages">
       <div id="messagetitle"><font size="4"><b>Messages</b></font></div>
