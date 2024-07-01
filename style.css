@@ -2,7 +2,7 @@ body{
   font-family: Verdana, sans-serif;
   background-color: honeydew;
 }
-#waffle{
+#waffle, #eatwaffle{
   font-family: Verdana, sans-serif;
   background-color: honeydew;
   font-size: 20px;
@@ -12,6 +12,9 @@ body{
   border-radius: 6px;
 }
 #waffle:hover{
+  background-color: lightgreen;
+}
+#eatwaffle:hover{
   background-color: lightgreen;
 }
 #messages{
@@ -26,7 +29,7 @@ body{
   max-width: fit-content;
   margin-right: 8px;
   margin-left: auto;
-  position: relative;
+  position: absolute;
   top: -137px; right: 30px;
 }
 #messagetitle{
