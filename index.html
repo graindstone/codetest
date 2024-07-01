@@ -11,6 +11,11 @@
         document.getElementById("textt").innerHTML = "What's that? Another button?";
         document.getElementById("gotwaffle").style.display="block";
       }
+      function eeatwaffle() {
+        document.getElementById("gotwaffle").style.display="block";
+        document.getElementById("eatwaffle").style.display="none";
+        document.getElementById("textt").innerHTML= "Now that you ate the waffle, there's nothing to do. So I made you a reset button so you can eat the waffle all over again!";
+      }
     </script>
   </head>
   <body>
@@ -18,7 +23,7 @@
       <h1><b>Nice-Looking Page</b></h1>
       <p id="textt">Click the button below!</p>
       <input id="waffle" type="button" onclick="getwaffle()" value="Waffle!">
-      <button id="eatwaffle" type="button" style="display:none">Eat Waffle!</button>
+      <button id="eatwaffle" type="button" style="display:none" onclick="eeatwaffle()">Eat Waffle!</button>
     </center>
     <div id="messages">
       <center>
