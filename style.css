@@ -37,5 +37,8 @@ body{
   z-index: 10;
 }
 #messagetitle{
+  z-index: 1;
+}
+#messagetitle{
   size: 20px;
 }
