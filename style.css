@@ -33,12 +33,8 @@ body{
 }
 #gotwaffle{
   position: relative;
-  top: -120px; right: 30px;
   z-index: 10;
 }
 #messagetitle{
   z-index: 1;
-}
-#messagetitle{
-  size: 20px;
 }
