@@ -17,7 +17,7 @@ body{
 #eatwaffle:hover{
   background-color: lightgreen;
 }
-#messages{
+#messagetitle{
   border: 2px solid lightgreen;
   background-color: honeydew;
   border-radius: 6px;
@@ -29,7 +29,7 @@ body{
   max-width: fit-content;
   margin-right: 8px;
   margin-left: auto;
-  position: fixed;
+  position: relative;
   top: -137px; right: 30px;
 }
 #messagetitle{
