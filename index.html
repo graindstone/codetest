@@ -20,7 +20,7 @@
       <h1><b>Nice-Looking Page</b></h1>
       <p>Click the button below!</p>
       <ul>
-        <li><button id="waffle" type="button" onclick="sendmessage('you got a waffle ?!')">Waffle!</button></li>
+        <li><button id="waffle" type="button" onclick="sendmessage('you got a waffle ?!'); document.getElementById('eatwaffle').style.display='block'; document.getElementById("Button").disabled = true;">Waffle!</button></li>
         <li><button id="eatwaffle" type="button" style="display:none"></button></li>
       </ul>
     </center>
